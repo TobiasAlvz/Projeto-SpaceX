@@ -1,0 +1,50 @@
+section {
+  &.section1 {
+    background-image: url("../../img/home/01\ \(1\).jpg");
+  }
+  &.section2 {
+    background-image: url("../../img/home/03\ \(1\).jpg");
+  }
+  &.section3 {
+    background-image: url("../../img/home/02.gif");
+  }
+  &.section4 {
+    background-image: url("../../img/home/04.jpg");
+  }
+}
+
+.text {
+  padding-top: 200px;
+}
+
+@media (max-width: 405px) {
+  .logo {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+  .text {
+    padding-top: 120px;
+  }
+
+  .text {
+    width: auto;
+    font-size: 50px;
+  }
+
+  .text {
+    width: auto;
+    font-size: 50px;
+  }
+} ;

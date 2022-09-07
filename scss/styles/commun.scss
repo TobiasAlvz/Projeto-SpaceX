@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: "Rubik", sans-serif;
 }
 
 section {
@@ -81,7 +83,6 @@ a {
   font-weight: bold;
 }
 .footer {
-  background-color: black;
   height: 15vh;
   font-size: 12px;
   font-weight: bold;

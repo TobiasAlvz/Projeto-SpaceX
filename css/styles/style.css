@@ -1,28 +1,33 @@
-@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: white;
   font-family: "Rubik", sans-serif;
 }
+
 section {
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: white;
 }
+
 header {
   position: fixed;
 }
+
 .logo {
   width: 230px;
 }
+
 a {
   position: relative;
   display: inline-block;
 }
+
 .nav-link {
   padding: 1px;
   font-size: small;
@@ -36,7 +41,7 @@ a {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: white;
   font-weight: bold;
   color: #b9b9b9;
   transform-origin: bottom right;
@@ -46,16 +51,19 @@ a {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 .arrowdown {
   display: inline-block;
   width: 90px;
   margin-top: 5px;
 }
+
 #button {
   padding: 15px 25px;
-  border: 2px solid #fff;
+  border: 2px solid white;
   position: relative;
 }
+
 #button:before {
   content: "";
   position: absolute;
@@ -64,15 +72,17 @@ a {
   width: 100%;
   height: 0px;
   background-color: rgba(255, 255, 255, 0.185);
-  color: #000;
+  color: black;
   border-radius: 10px;
   transition: all 0.5s ease;
 }
+
 #button:hover:before {
   height: 100%;
-  color: #000;
+  color: black;
   font-weight: bold;
 }
+
 .footer {
   height: 15vh;
   font-size: 12px;
@@ -83,33 +93,38 @@ a {
 }
 .footer a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   transition: 0.5s;
 }
 .footer a:hover {
   color: #b9b9b9;
 }
+
 .footer > span {
   color: #555252;
 }
+
 .navbar-toggler-icon {
   height: 20px;
 }
+
 section.section1 {
-  background-image: url("../img/home/01 (1).jpg");
+  background-image: url("../../img/home/Home-1.jpg");
 }
 section.section2 {
-  background-image: url("../img/home/03 (1).jpg");
+  background-image: url("../../img/home/Home-3.jpg");
 }
 section.section3 {
-  background-image: url("../img/home/02.gif");
+  background-image: url("../../img/home/Home-2.gif");
 }
 section.section4 {
-  background-image: url("../../img/home/04.jpg");
+  background-image: url("../../img/home/Home-4.jpg");
 }
+
 .text {
   padding-top: 200px;
 }
+
 @media (max-width: 405px) {
   .logo {
     width: 180px;
@@ -139,35 +154,37 @@ section.section4 {
   }
 }
 section.section5 {
-  background-image: url(../img/falcon9/01.jpg);
+  background-image: url(../../img/falcon9/Falcon-1.jpg);
 }
 section.section6 {
-  background-image: url(../img/falcon9/02.jpg);
+  background-image: url(../../img/falcon9/Falcon-2.jpg);
 }
 section.carousel1 {
-  background-image: url(../img/falcon9/03.jpg);
+  background-image: url(../../img/falcon9/Falcon-3.jpg);
 }
 section.carousel2 {
-  background-image: url(../img/falcon9/04.jpg);
+  background-image: url(../../img/falcon9/Falcon-4.jpg);
 }
 section.carousel3 {
-  background-image: url(../img/falcon9/05.jpg);
+  background-image: url(../../img/falcon9/Falcon-5.jpg);
 }
 section.carousel4 {
-  background-image: url(../img/falcon9/06.jpg);
+  background-image: url(../../img/falcon9/Falcon-6.jpg);
 }
 section.carousel5 {
-  background-image: url(../img/falcon9/07.jpg);
+  background-image: url(../../img/falcon9/Falcon-7.jpg);
 }
-section.section07 {
-  background-image: url(../img/falcon9/08.jpg);
+section.section7 {
+  background-image: url(../../img/falcon9/Falcon-8.jpg);
 }
+
 .title1 {
   font-size: 90px;
   font-weight: bold;
 }
+
 .numbers {
-  background-color: #000;
+  background-color: black;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -179,43 +196,50 @@ section.section07 {
 .numbers .sub {
   font-size: 20px;
 }
+
 .f9Desc {
   font-size: 22px;
   width: 640px;
   line-height: 50px;
 }
+
 .textFalcon9 {
   display: grid;
   height: 90vh;
   align-items: center;
   justify-content: left;
 }
+
 #overViewPosition {
   width: 500px;
   margin-left: 13%;
   padding-top: 15%;
 }
+
 .carrosselSlide img {
   height: 100vh;
 }
+
 .carousselText {
-  background-color: #000;
+  background-color: black;
 }
+
 .downloadDesc {
   height: 85vh;
   padding-top: 240px;
 }
 .downloadDesc a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 .downloadDesc a:hover {
   color: #b9b9b9;
 }
 .downloadDesc button {
-  border: 2px solid #fff;
+  border: 2px solid white;
   margin-right: 10px;
 }
+
 @media (max-width: 425px) {
   .text {
     display: flex;
@@ -257,21 +281,23 @@ section.section07 {
 .downloadDesc button {
   margin: 10px 0px;
 }
+
 section.section8 {
-  background-image: url "../img/humanflight/01 (3).jpg";
+  background-image: url("../../img/humanflight/Human-1.jpg");
 }
 section.section9 {
-  background-image: url("../img/humanflight/02 (2).jpg");
+  background-image: url("../../img/humanflight/Human-2.jpg");
 }
 section.section10 {
-  background-image: url("../img/humanflight/03 (3).jpg");
+  background-image: url("../../img/humanflight/Human-3.jpg");
 }
 section.section11 {
-  background-image: url("../img/humanflight/04 (2).jpg");
+  background-image: url("../../img/humanflight/Human-4.jpg");
 }
 section.section12 {
-  background-image: url("../img/humanflight/05 (1).jpg");
+  background-image: url("../../img/humanflight/Human-5.jpg");
 }
+
 .text1 {
   height: 90vh;
   display: flex;
@@ -291,8 +317,9 @@ section.section12 {
 .text1 img {
   width: 130px;
 }
+
 .eartDesc {
-  background-color: #000;
+  background-color: black;
   height: 25vh;
   display: flex;
   align-items: center;
@@ -305,25 +332,30 @@ section.section12 {
 }
 .eartDesc a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: 500;
 }
+
 .containerRightContent {
   margin-left: 55%;
   padding-top: 15%;
 }
+
 .titleSection {
   font-size: 60px;
   font-weight: bold;
 }
+
 .subTitle {
   font-weight: 300;
   margin-bottom: 40px;
 }
+
 .containerLeftContent {
   margin-left: 5%;
   padding-top: 15%;
 }
+
 @media (max-width: 1024px) {
   .text1 h1 {
     font-size: 90px;
@@ -384,4 +416,6 @@ section.section12 {
     margin-left: 7%;
     padding-top: 30%;
   }
-} /*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

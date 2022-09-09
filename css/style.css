@@ -258,7 +258,7 @@ section.section07 {
   margin: 10px 0px;
 }
 section.section8 {
-  background-image: url("../img/humanflight/01 (3).jpg");
+  background-image: url "../img/humanflight/01 (3).jpg";
 }
 section.section9 {
   background-image: url("../img/humanflight/02 (2).jpg");

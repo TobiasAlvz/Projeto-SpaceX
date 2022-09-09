@@ -96,13 +96,13 @@ a {
   height: 20px;
 }
 section.section1 {
-  background-image: url("../../img/home/01 (1).jpg");
+  background-image: url("../img/home/01 (1).jpg");
 }
 section.section2 {
-  background-image: url("../../img/home/03 (1).jpg");
+  background-image: url("../img/home/03 (1).jpg");
 }
 section.section3 {
-  background-image: url("../../img/home/02.gif");
+  background-image: url("../img/home/02.gif");
 }
 section.section4 {
   background-image: url("../../img/home/04.jpg");
@@ -258,19 +258,19 @@ section.section07 {
   margin: 10px 0px;
 }
 section.section8 {
-  background-image: url("../../img/humanflight/01 (3).jpg");
+  background-image: url("../img/humanflight/01 (3).jpg");
 }
 section.section9 {
-  background-image: url("../../img/humanflight/02 (2).jpg");
+  background-image: url("../img/humanflight/02 (2).jpg");
 }
 section.section10 {
-  background-image: url("../../img/humanflight/03 (3).jpg");
+  background-image: url("../img/humanflight/03 (3).jpg");
 }
 section.section11 {
-  background-image: url("../../img/humanflight/04 (2).jpg");
+  background-image: url("../img/humanflight/04 (2).jpg");
 }
 section.section12 {
-  background-image: url("../../img/humanflight/05 (1).jpg");
+  background-image: url("../img/humanflight/05 (1).jpg");
 }
 .text1 {
   height: 90vh;
